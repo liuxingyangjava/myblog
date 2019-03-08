@@ -1,37 +1,21 @@
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ page.title | append: ' - ' |append: site.name }}</title>
 
-	<link rel="shortcut icon" href="{{ '/styles/images/favicon.jpg' | prepend: site.baseurl }}">
-	<link rel="icon" href="{{ '/styles/images/favicon.jpg' | prepend: site.baseurl }}">
-
-	<link rel="stylesheet" href="{{ '/styles/css/index.css' | prepend: site.baseurl }}">
-	<link rel="stylesheet" href="{{ '/styles/css/fontawesome/css/font-awesome.min.css' | prepend: site.baseurl }}">
-	<link rel="stylesheet" href="{{ '/styles/css/syntax.css' | prepend: site.baseurl }}">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | prepend: site.baseurl }}">
-	
-	<meta name="keywords" content="{{ page.title | append: ', ' | append: site.name | append: ', ' | append: site.meta_description}}">
-	<meta name="description" content="{{site.meta_description}}">
-
-	<script src="{{ '/styles/js/jquery.min.js' | prepend: site.baseurl }}"></script>
-	<!--[if lt IE 9]>
-    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  	<![endif]-->
-  	<script>
-		var _hmt = _hmt || [];
-		(function() {
-		  var hm = document.createElement("script");
-		  hm.src = "//hm.baidu.com/hm.js?{{ site.baidu_analysis }}";
-		  var s = document.getElementsByTagName("script")[0]; 
-		  s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-  	<style type="text/css">
-	  	.docs-content{
-	  		margin-bottom: 10px;
-	  	}
-  	</style>
-</head>
+	<head>
+		<title>Read Only by HTML5 UP</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.scrollzer.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.scrolly.min.js"></script>
+		<script src="{{ site.baseurl }}/js/skel.min.js"></script>
+		<script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
+		<script src="{{ site.baseurl }}/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css" />
+			<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+			<link rel="stylesheet" href="{{ site.baseurl }}/css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+		
